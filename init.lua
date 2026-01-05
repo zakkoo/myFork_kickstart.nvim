@@ -97,6 +97,15 @@ vim.g.have_nerd_font = false
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
+--  CUSTOM AGZ CUSTOM AGZ
+-- Set indentation to 4 spaces
+vim.opt.shiftwidth = 4 -- Number of spaces for each indentation level (>> and <<)
+vim.opt.tabstop = 4 -- Number of spaces that a <Tab> character displays as
+vim.opt.softtabstop = 4 -- Number of spaces inserted when you press <Tab> in insert mode
+vim.opt.expandtab = true -- Convert tabs to spaces (highly recommended)
+vim.opt.smartindent = true -- Better auto-indentation
+
+vim.opt.swapfile = false
 
 -- Make line numbers default
 vim.o.number = true
